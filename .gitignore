@@ -7,9 +7,13 @@
 
 # testing
 /coverage
+/coverage-reports
+/test-reports
 
 # production
+/dist
 /build
+**/__snapshots__
 
 # misc
 .DS_Store
@@ -21,3 +25,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.npm/
+
+# configs
+.idea
+.vscode
+/cypress-coverage
