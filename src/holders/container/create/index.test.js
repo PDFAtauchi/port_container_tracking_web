@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import { fireEvent, render, screen, act } from 'utils/testUtils';
-import ContainerHolder from 'holders/container';
+import ContainerHolder from 'holders/container/create';
 
 jest.mock('axios');
 
