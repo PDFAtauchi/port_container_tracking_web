@@ -13,3 +13,5 @@ export const PLACE_HOLDER = {
 	STATUS: 'Status',
 	SELECT_STATUS: 'Select a Status',
 };
+
+export const TOAST_SUCCESS_MESSAGE = "Success create container"
