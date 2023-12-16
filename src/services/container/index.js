@@ -4,7 +4,7 @@ import { CREATE_CONTAINER_URL } from 'constants/container';
 
 const createContainerService = async (data, { onSuccess, onError }) => {
 	await axios
-		.post(`${PORT_CONTAINER_TRACKING_BACKEND_URL}${CREATE_CONTAINER_URL}`)
+		.post(`${PORT_CONTAINER_TRACKING_BACKEND_URL}${CREATE_CONTAINER_URL}`, data)
 		.then((response) => {
 			onSuccess(response);
 		})
