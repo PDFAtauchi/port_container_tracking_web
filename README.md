@@ -12,25 +12,37 @@
 </div>
 
 # Context
+
 For context go to : [backend repo](https://github.com/PDFAtauchi/port_container_tracking_backend)
 
 # Setup
+
 ## Prerequisites
- - Node
- - npm
+
+- Node
+- npm
 
 ## Usage
- - Clone repo
- - To install dependencies = yarn install
- - To start app = yarn start
- - To run linter = yarn lint
- - To run formatter = yarn format
- - To run tests = yarn test
- - To run coverage = yarn coverage
+
+- Clone repo
+- To install dependencies = yarn install
+- To start app = yarn start
+- To run linter = yarn lint
+- To run formatter = yarn format
+- To run tests = yarn test
+- To run coverage = yarn coverage
 
 ## Stack
+
 - Reactjs
 - PrimeReact
 - axios
 - formik
 - yup
+
+## Improvements
+
+- Implement Update, Detail, Delete, List pages
+- Add Features flags
+- Configure Sentry to monitoring errors in production
+- E2E tests using e.g. cypress
