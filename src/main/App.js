@@ -3,11 +3,12 @@ import { PrimeReactProvider } from 'primereact/api';
 import 'primereact/resources/themes/lara-light-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
+import { PublicRoutes } from 'routes';
 
 function App() {
 	return (
 		<PrimeReactProvider>
-			<div className="App">Port Container Tracking</div>;
+			<PublicRoutes />
 		</PrimeReactProvider>
 	);
 }

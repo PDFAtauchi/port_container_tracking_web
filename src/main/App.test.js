@@ -10,5 +10,5 @@ it('Render App', async () => {
 	await render({ ui });
 
 	// Then
-	expect(screen.getByText('Port Container Tracking')).toBeInTheDocument();
+	expect(screen.getByText('Welcome')).toBeInTheDocument();
 });
