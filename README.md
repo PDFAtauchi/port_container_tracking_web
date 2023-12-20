@@ -22,6 +22,13 @@ For context go to : [backend repo](https://github.com/PDFAtauchi/port_container_
 - Node
 - npm
 
+## Additional
+
+create .env.development.local and .env.test.local file in root of project, and put this in the files.
+```yaml
+REACT_APP_PORT_CONTAINER_TRACKING_BACKEND_URL=http://localhost:8080
+```
+
 ## Usage
 
 - Clone repo
